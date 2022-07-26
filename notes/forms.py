@@ -7,8 +7,8 @@ class NotesForm(forms.ModelForm):
         model = Notes
         fields = ('title','text')
         widgets = {
-            'title': forms.TextInput(attrs={'class': 'form-control my-5'}),
-            'text': forms.Textarea(attrs={'class': 'form-control mb-5'})
+            'title': forms.TextInput(attrs={'class': 'form-control my-1'}),
+            'text': forms.Textarea(attrs={'class': 'form-control mb-1'})
         }
         labels = {
             'text': 'Write your thoughts here'
