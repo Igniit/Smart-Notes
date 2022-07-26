@@ -1,4 +1,5 @@
-from django.http import HttpResponse
+import time
+from django.http import HttpResponseRedirect
 from datetime import datetime
 from django.views.generic import TemplateView
 from django.views.generic.edit import CreateView
